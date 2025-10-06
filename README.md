@@ -2,6 +2,7 @@
 The PythonPart is a parametric coordinate cross that can be placed in the drawing file to fulfill two different use-cases:
 - mark the internal program origin of ALLPLAN
 - set and define a local coordinate system for views and sections
+
 The latter is needed to create local views of objects that do not have an internal coordiate system themselfesves, like for example a 3D body
 
 ## Installation
@@ -20,4 +21,4 @@ in the ALLPLAN Library:
 Additionaly it is also added to the ActionBar in a new created task area **Coordinates** in the task **Plug-ins**.
 
 ## Workflow
-Add a description of the individual workflow steps the PythonPart covers
+The PythonPart is executed directly in ALLPLAN from the **Library palette**. In general, all PythonParts can be stated either with a **double-click** on the entry or per **Drag and Drop**. This shows the corresponding Properties palette and executes the skript.\
